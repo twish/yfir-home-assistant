@@ -1,0 +1,3 @@
+*
+!dist/yfir-agent_linux_*
+!deploy/home-assistant/yfir_agent/entrypoint.sh

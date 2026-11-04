@@ -1,0 +1,10 @@
+configuration:
+  hub:
+    name: Hub
+    description: The hub's agent address as host:port, the --hub value yfir enroll prints.
+  token:
+    name: Enrollment token
+    description: The one-time token yfir enroll prints. Used once on first start and ignored once the agent is enrolled.
+  tls_fingerprint:
+    name: TLS fingerprint
+    description: Pins the hub's self-signed certificate. Leave empty when the hub's certificate is CA-issued.

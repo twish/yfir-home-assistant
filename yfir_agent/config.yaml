@@ -1,7 +1,8 @@
 name: yfir agent
-version: develop-432879a
+# The release workflow stamps the tag here; it is also the image tag Home Assistant pulls.
+version: "v0.6.0"
 slug: yfir_agent
-description: Ships this host's metrics, logs and facts to a yfir hub (spike build from the develop channel).
+description: Reports this host to a yfir hub, observing only
 url: https://github.com/twish/yfir
 image: ghcr.io/twish/yfir-agent
 arch:

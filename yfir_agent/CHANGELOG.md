@@ -1,0 +1,22 @@
+# Changelog
+
+## v0.6.0 (2026-11-04)
+
+## What's Changed
+* fix: a hub restart no longer strands agents on the old version by @twish in https://github.com/twish/yfir/pull/154
+* feat: a subnet only one site's hosts link to is drawn inside that site's frame by @twish in https://github.com/twish/yfir/pull/157
+* docs: specify the agent as a Home Assistant app (SPEC §14, A61–A69) by @twish in https://github.com/twish/yfir/pull/164
+* feat: yfir-agent run enrols itself from the environment (#158) by @twish in https://github.com/twish/yfir/pull/165
+* feat: agent reports its packaging in Hello; the hub stores and shows it (#159) by @twish in https://github.com/twish/yfir/pull/166
+* feat: a container-packaged agent is never upgraded in place and never changes its host (#160) by @twish in https://github.com/twish/yfir/pull/167
+* feat: agent image ghcr.io/twish/yfir-agent, its test, and its place in the release (#161) by @twish in https://github.com/twish/yfir/pull/168
+* docs: record the Home Assistant spike findings (A70) (#162) by @twish in https://github.com/twish/yfir/pull/170
+* feat: the container agent reads the host journal by directory and its own mount table (#169) by @twish in https://github.com/twish/yfir/pull/171
+* feat: the Home Assistant app folder, its release mirror, and the operator flow (#163) by @twish in https://github.com/twish/yfir/pull/173
+* fix: a journald entry carrying CONTAINER_NAME is named after the container (#174) by @twish in https://github.com/twish/yfir/pull/178
+* ci: the pull request's checks gate develop; a push to develop only publishes (#172) by @twish in https://github.com/twish/yfir/pull/176
+* feat: the Home Assistant app no longer asks for SYS_PTRACE (#175) by @twish in https://github.com/twish/yfir/pull/177
+* release: v0.6.0 by @twish in https://github.com/twish/yfir/pull/179
+
+
+**Full Changelog**: https://github.com/twish/yfir/compare/v0.5.1...v0.6.0
