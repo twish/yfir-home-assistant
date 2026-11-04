@@ -1,0 +1,27 @@
+name: yfir agent
+version: develop
+slug: yfir_agent
+description: Ships this host's metrics, logs and facts to a yfir hub (spike build from the develop channel).
+url: https://github.com/twish/yfir
+image: ghcr.io/twish/yfir-agent
+arch:
+  - aarch64
+  - amd64
+init: true
+startup: services
+boot: auto
+host_network: true
+host_uts: true
+host_pid: true
+privileged:
+  - SYS_PTRACE
+journald: true
+docker_api: true
+options:
+  hub: ""
+  token: ""
+  tls_fingerprint: ""
+schema:
+  hub: str
+  token: password?
+  tls_fingerprint: str?
