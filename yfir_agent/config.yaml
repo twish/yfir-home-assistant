@@ -1,5 +1,5 @@
 name: yfir agent
-version: develop-6a5e358
+version: develop
 slug: yfir_agent
 description: Ships this host's metrics, logs and facts to a yfir hub (spike build from the develop channel).
 url: https://github.com/twish/yfir
@@ -13,8 +13,6 @@ boot: auto
 host_network: true
 host_uts: true
 host_pid: true
-privileged:
-  - SYS_PTRACE
 journald: true
 docker_api: true
 options:
