@@ -1,5 +1,5 @@
 name: yfir agent
-version: develop
+version: develop-6a5e358
 slug: yfir_agent
 description: Ships this host's metrics, logs and facts to a yfir hub (spike build from the develop channel).
 url: https://github.com/twish/yfir
