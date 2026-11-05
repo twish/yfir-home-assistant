@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.7.0 (2026-11-05)
+
+## What's Changed
+* feat: a host card on the map carries a tab with its CPU and RAM load (#181) by @twish in https://github.com/twish/yfir/pull/183
+* feat: a selected application colours its share of its host's CPU and RAM bars (#184) by @twish in https://github.com/twish/yfir/pull/187
+* feat: the agent reports each host's top five processes by CPU and by memory (#185) by @twish in https://github.com/twish/yfir/pull/188
+* release: v0.7.0 by @twish in https://github.com/twish/yfir/pull/189
+
+
+**Full Changelog**: https://github.com/twish/yfir/compare/v0.6.0...v0.7.0
+
 ## v0.6.0 (2026-11-04)
 
 ## What's Changed
