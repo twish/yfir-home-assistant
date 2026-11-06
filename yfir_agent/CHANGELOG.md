@@ -1,5 +1,19 @@
 # Changelog
 
+## v0.8.0 (2026-11-06)
+
+## What's Changed
+* feat: a selected application traces its host on the map, and the tab's bars get straight inner edges (#190) by @twish in https://github.com/twish/yfir/pull/191
+* feat: cpu_high and memory_high rules name the top processes (#186) by @twish in https://github.com/twish/yfir/pull/192
+* fix: the host trace closes round the tab like a speech bubble (#193) by @twish in https://github.com/twish/yfir/pull/194
+* feat: the host card shows the host's primary address under its name by @twish in https://github.com/twish/yfir/pull/196
+* feat: top_processes emits only names above 1 % of the host's CPU or memory by @twish in https://github.com/twish/yfir/pull/199
+* fix: a macOS zombie counts as exited instead of an unreadable process by @twish in https://github.com/twish/yfir/pull/200
+* release: v0.8.0 by @twish in https://github.com/twish/yfir/pull/201
+
+
+**Full Changelog**: https://github.com/twish/yfir/compare/v0.7.0...v0.8.0
+
 ## v0.7.0 (2026-11-05)
 
 ## What's Changed

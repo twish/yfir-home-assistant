@@ -1,6 +1,6 @@
 name: yfir agent
 # The release workflow stamps the tag here; it is also the image tag Home Assistant pulls.
-version: "v0.7.0"
+version: "v0.8.0"
 slug: yfir_agent
 description: Reports this host to a yfir hub, observing only
 url: https://github.com/twish/yfir
